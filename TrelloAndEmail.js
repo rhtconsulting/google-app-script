@@ -32,7 +32,7 @@ function Initialize() {
 function sendEmails() {
 
   var subject = "Incoming Consulting Opportunity - ACTION REQUIRED";  
-  var message = "<p class=\"p1\"><b>RHC West - Consulting Opportunity Request Form Submission</b></p>\n\n";
+  var message = "";
   var sheet = SpreadsheetApp.getActiveSheet();
   var rows = sheet.getDataRange();
   var values = rows.getValues();
